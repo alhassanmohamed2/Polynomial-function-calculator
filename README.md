@@ -1,3 +1,3 @@
 # Polynomial-function-calculator
 
-[https://alhassanmohamed2.github.io/Polynomial-function-calculator/](The calculator Website)
+[The calculator Website](https://alhassanmohamed2.github.io/Polynomial-function-calculator/)
