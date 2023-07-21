@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+form{
+    text-align: center;
+
+    margin: auto;
+    border: 2px black solid;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+input[type="text"]{
+    display: inline;
+width: 15px;
+}
+
+#OrderdNumText{
+    position: relative;
+    display: none;
+    margin: auto;
+}
+
