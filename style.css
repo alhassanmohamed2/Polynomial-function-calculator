@@ -110,6 +110,7 @@ input[type="checkbox"]:checked:after {
     border-radius: 15px;
     color: white;
     position: relative;
+    margin-top: 15px;
 }
 
 .superSc::before {
