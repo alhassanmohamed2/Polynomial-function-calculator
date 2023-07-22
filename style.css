@@ -27,6 +27,18 @@ h1 {
     margin-bottom: -5px;
 }
 
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all b {
+    font-size: 25px;
+}
+
+
 input {
     text-align: center;
     outline: none;
@@ -34,19 +46,20 @@ input {
 
 input[type="text"] {
     display: inline;
-    width: 17px;
+    width: 25px;
+    height: 25px;
+    font-size: 23px;
 }
 
 input[type="button"] {
-    padding: 10px 15px;
+    padding: 10px 18px;
     background-color: #03A9F4;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     text-transform: capitalize;
-    /* display: block; */
-    margin: 10px auto -20px;
+    margin-left: 10px;
 }
 
 input[type="button"]:checked {
@@ -60,6 +73,46 @@ input[type="button"]:checked {
     margin: auto;
 }
 
+.os {
+    display: inline-block;
+    position: relative;
+}
+
+.os.one {
+    margin: 0 30px 0 5px;
+}
+
+.os.two {
+    margin: 0 24px 0 5px;
+}
+
+.os.three {
+    margin-right: 30px;
+}
+
+.os label {
+    font-size: 30px;
+}
+
+.os input {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 14px;
+    height: 14px;
+    font-size: 15px;
+}
+
+
+
+#secondNum {
+    margin-left: 4px;
+}
+
+#bracketPower {
+    top: -17px;
+    left: 0;
+}
 
 input[type="checkbox"]:checked {
     background: #03A9F4;
