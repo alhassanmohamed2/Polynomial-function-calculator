@@ -96,7 +96,7 @@ input[type="button"]:checked {
 
 .os input {
     position: absolute;
-    top: 10px;
+    top: 4px;
     left: 20px;
     width: 14px;
     height: 14px;
@@ -110,7 +110,7 @@ input[type="button"]:checked {
 }
 
 #bracketPower {
-    top: -17px;
+    top: -23px;
     left: 0;
 }
 
