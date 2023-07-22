@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Poly</title>
 </head>
+
 <body>
-  
-    <form >
-        <div>Polynomial function calculator</div>
+
+    <form>
+        <h1>Polynomial function calculator</h1>
         <br>
-        <b>&#40;&#160;</b>
-        
-        <input type="text" id="firstNum">
-        <label for="">X</label>
-        <input type="text"  id="firstPower">
-        <b>&#160;&#43;&#160;</b>
-        <input type="text"  id="secondNum">
-        <label for="">X</label>
-        <input type="text"  id="secondPower">
-        <b>&#160;&#41;&#160;</b>
-        <input type="text" id="bracketPower">
-        <b>&#160;</b>
-        
-        <input type="button" value="calc" id="calcButton">
+        <div class="all">
+            <b>&#40;&#160;</b>
+            <input type="text" id="firstNum">
+            <div class="os one">
+                <label for="">X</label>
+                <input type="text" id="firstPower">
+            </div>
+            <b>&#160;&#43;&#160;</b>
+            <input type="text" id="secondNum">
+            <div class="os two">
+                <label for="">X</label>
+                <input type="text" id="secondPower">
+            </div>
+            <b>&#160;&#41;&#160;</b>
+            <div class="os three">
+                <input type="text" id="bracketPower">
+            </div>
+            <b>&#160;</b>
+
+            <input type="button" value="calc" id="calcButton">
+        </div>
         <br>
         <label for="">Find Specifc Number</label>
-        <input type="checkbox"  id="OrderdNum">
-        <input type="text"  id="OrderdNumText">
+        <input type="checkbox" id="OrderdNum">
+        <input type="text" id="OrderdNumText">
     </form>
     <br>
     <div class="superSc">
@@ -36,4 +45,5 @@
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>
